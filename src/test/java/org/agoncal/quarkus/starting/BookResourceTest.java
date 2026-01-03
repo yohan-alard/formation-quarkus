@@ -43,6 +43,6 @@ class BookResourceTest {
                 .body("title", is("george"))
                 .body("author", is("georghe"))
                 .body("yearOfPublication", is(2004))
-                .body("genre", is("fantasy"));
+                .body("genre", is("IT"));
     }
 }
